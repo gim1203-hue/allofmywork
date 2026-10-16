@@ -154,12 +154,3 @@ git push -u origin main
   calls to the Weather/Radio APIs from here. Please do the normal
   `npm install` then `vercel dev` check locally before deploying, the
   same way you did for the last update — that's the real test.
-
-
-## Workspace password screen
-
-The primary URL is https://allofmywork.com/. The entry screen requires the configured password on every page load, refresh, new tab, or browser back/forward cache restoration. Unlock state stays only in React memory; no cookie or browser storage remembers it. The Lock site button immediately unmounts the workspace.
-
-This is a browser convenience lock, not server access control: public JavaScript assets and API routes remain accessible independently, and the password digest is available in the client bundle. Do not rely on it to protect confidential information. Strong access control requires authentication enforced by the hosting/server layer.
-
-The entry screen shows a clickable LinkDeck logo and workspace summary. Select the logo to reveal PIN entry. The Vercel deployment serves https://allofmywork.com/ and its existing https://my-free-ai.vercel.app/ alias. The GitHub Pages workflow builds a separate artifact with /allofmywork/ as its asset base; it does not move the custom domain away from Vercel.
