@@ -15,7 +15,7 @@
 export const LINKDECK_DATA = [
   // ---- My Live Apps ----
   { cat: 'My Live Apps', title: 'WorldWave', url: 'https://worldwave-react-beta.vercel.app/', desc: 'React radio browser — pick a country, stream any live station on the Radio Browser API.' },
-  { cat: 'My Live Apps', title: 'My Free AI', url: 'https://my-free-ai.vercel.app/', desc: 'Zero-cost voice + chat assistant: Gemini for the brain, the browser’s own speech APIs for voice.' },
+  { cat: 'My Live Apps', title: 'All of My Work', url: 'https://allofmywork.com/', desc: 'Zero-cost voice + chat assistant: Gemini for the brain, the browser’s own speech APIs for voice.' },
   { cat: 'My Live Apps', title: 'My AI (Private)', url: 'https://aihelpall.com/', desc: 'Original OpenAI-powered voice assistant, on Render behind Cloudflare.' },
   { cat: 'My Live Apps', title: 'i-Remembe (Vercel)', url: 'https://www.i-remembe.app/', desc: 'Personal memory-journal app — production build.' },
   { cat: 'My Live Apps', title: 'i-Remembe (GitHub)', url: 'https://gim1203-hue.github.io/i-remember/', desc: 'Same memory-journal app, GitHub Pages build.' },
